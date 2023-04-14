@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class homework_java1 {
+    public static void main (String [] args){
+        Scanner reader = new Scanner(System.in);
+
+
+        System.out.println("Добро пожаловать! Как тебя зовут?");
+        String firstName = reader.nextLine();
+        System.out.println("Привет, " + firstName + ". Какая у тебя фамилия?");
+        String secondName = reader.nextLine();
+        String fullName = firstName + " " + secondName;
+        System.out.println("Поздравляем с успешной регистрацией, " + fullName);
+
+    }
+}
